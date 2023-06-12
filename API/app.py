@@ -5,13 +5,18 @@ import os
 from dotenv import load_dotenv
 from typing import Dict
 from joblib import load
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 load_dotenv()
 
 api_key = os.getenv('YT_API_KEY')
 model = load('yt_dislike_model.joblib')
+
+
 
 @app.route('/get_video_data/<videoID>')
 def GetData(videoID: str) -> Dict[str, int]:
