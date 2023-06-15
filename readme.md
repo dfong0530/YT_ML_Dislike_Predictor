@@ -2,7 +2,7 @@
 
 https://github.com/dfong0530/UChat/assets/68403991/bb0003df-36f6-4621-98a9-da439748818a
 
-### <pre>[Demo Video](https://www.youtube.com/watch?v=qso32-_gCZ8)      [Project Link](https://uchat-client.netlify.app/)       [Architecture](https://github.com/dfong0530/UChat/tree/main/client)       [Google Chrome Extension](https://github.com/dfong0530/UChat/tree/main/server)</pre>
+### <pre>[Demo Video](https://www.youtube.com/watch?v=qso32-_gCZ8)         [Google Chrome Extension](https://uchat-client.netlify.app/)           [Architecture](https://github.com/dfong0530/YT_ML_Dislike_Predictor/tree/main/Architecture_Diagram)</pre>
 
 ###### Developer: David Fong
 

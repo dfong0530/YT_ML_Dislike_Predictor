@@ -1,4 +1,4 @@
-# Frontend Architecture
+# Architecture
 
 <img width="1153" alt="Architecture" src="https://github.com/dfong0530/UChat/assets/68403991/2b714fc6-f87d-42eb-916c-9d94e9b2abc6">
 
