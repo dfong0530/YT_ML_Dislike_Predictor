@@ -1,8 +1,8 @@
 # YT_ML_Dislike_Predictor
 
-https://github.com/dfong0530/YT_ML_Dislike_Predictor/assets/68403991/6de27515-a617-47dd-a471-81dd1fbb1bbd
+https://github.com/dfong0530/UChat/assets/68403991/bb0003df-36f6-4621-98a9-da439748818a
 
-### <pre>[Demo Video](https://www.youtube.com/watch?v=qso32-_gCZ8)    [Project Link](https://uchat-client.netlify.app/)     [Architecture](https://github.com/dfong0530/UChat/tree/main/client)     [Google Chrome Extension](https://github.com/dfong0530/UChat/tree/main/server)</pre>
+### <pre>[Demo Video](https://www.youtube.com/watch?v=qso32-_gCZ8)      [Project Link](https://uchat-client.netlify.app/)       [Architecture](https://github.com/dfong0530/UChat/tree/main/client)       [Google Chrome Extension](https://github.com/dfong0530/UChat/tree/main/server)</pre>
 
 ###### Developer: David Fong
 
@@ -21,7 +21,7 @@ This is a Google Chrome Extension, that predicts the number of dislikes on a you
 
 ### How I built it
 
-#### ML (Python, Sklearn, Pandas)
+##### ML (Python, Sklearn, Pandas)
 
 1. I downloaded a csv file from Kaggle. The dataset included columns, with likes, views, and dislikes scrapped from the you tube api.
 
@@ -31,7 +31,7 @@ This is a Google Chrome Extension, that predicts the number of dislikes on a you
 3. After, I ran a multiple regression algorithm to create my model, which was then saved using joblib.
 
 
-#### API (Python, Flask, You_Tube_Data_API_V3)
+##### API (Python, Flask, You_Tube_Data_API_V3)
 
 4. I created an internal API using flask. 
 
@@ -42,7 +42,7 @@ I have a single endpoint: '/get_video_data/{videoId}', which returns the likes, 
 7. I hosted the api using fly.io
 
 
-#### GC Extension
+##### GC Extension
 
 
 6. I created the html and css files for the popup.
