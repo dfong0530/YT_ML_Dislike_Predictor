@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from typing import Dict
 from joblib import load
 from flask_cors import CORS
+import pandas as pd
 
 
 app = Flask(__name__)
@@ -16,6 +17,7 @@ load_dotenv()
 api_key = os.getenv('YT_API_KEY')
 model = load('yt_dislike_model.joblib')
 
+scaler = load('scaler.joblib') 
 
 
 @app.route('/get_video_data/<videoID>')
@@ -31,7 +33,13 @@ def GetData(videoID: str) -> Dict[str, int]:
         view_count = int(data["items"][0]["statistics"]["viewCount"])
         like_count = int(data["items"][0]["statistics"]["likeCount"])
 
-        dislike_count = int(model.predict([[view_count, like_count]]))
+
+        input_data = pd.DataFrame([[view_count, like_count]], columns=['views', 'likes'])
+
+        # scale the input data
+        input_data = pd.DataFrame(scaler.transform(input_data), columns=input_data.columns)
+
+        dislike_count = int(model.predict(input_data))
 
         return {"status": 200, "view_count" : view_count, "like_count" : like_count, "dislike_count": dislike_count}
     

@@ -1,3 +1,20 @@
+function convertToShorthand(number) {
+    var absNumber = Math.abs(number);
+    var shorthand;
+
+    if (absNumber >= 1000000) {
+        shorthand = (number / 1000000).toFixed(1).replace('.0', '') + "m";
+    } else if (absNumber >= 1000) {
+        shorthand = (number / 1000).toFixed(1).replace('.0', '') + "k";
+    } else {
+        shorthand = number.toString();
+    }
+
+    return shorthand;
+}
+
+
+
 function main() {
     // Send a message to the content script asking for the video ID
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
@@ -7,7 +24,9 @@ function main() {
                     .then(res => res.json())
                     .then(data => {
                         let dislikeCount = document.getElementById('dislikeCount');
-                        dislikeCount.textContent = data["dislike_count"];
+                        let dislikes = convertToShorthand(data["dislike_count"]);
+
+                        dislikeCount.textContent = dislikes;
                     })
                     .catch(error => {
                         console.error('Error:', error);
