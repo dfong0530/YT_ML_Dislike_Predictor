@@ -1,8 +1,8 @@
 # YT_ML_Dislike_Predictor
 
-https://github.com/dfong0530/UChat/assets/68403991/bb0003df-36f6-4621-98a9-da439748818a
+https://github.com/dfong0530/YT_ML_Dislike_Predictor/assets/68403991/bdc2fd46-014e-473a-8950-f1b62f08d89a
 
-### <pre>[Demo Video](https://www.youtube.com/watch?v=qso32-_gCZ8)         [Google Chrome Extension](https://uchat-client.netlify.app/)           [Architecture](https://github.com/dfong0530/YT_ML_Dislike_Predictor/tree/main/Architecture_Diagram)</pre>
+### <pre>[Demo Video](https://www.youtube.com/watch?v=qso32-_gCZ8)           [Google Chrome Extension](https://uchat-client.netlify.app/)             [Architecture](https://github.com/dfong0530/YT_ML_Dislike_Predictor/tree/main/Architecture_Diagram)</pre>
 
 ###### Developer: David Fong
 
@@ -17,7 +17,7 @@ This change, however, was met with substantial push back from the YouTube commun
 
 This is a Google Chrome Extension, that predicts the number of dislikes on a you tube videos. Your current window must be on a you tube video before activating the extension.
 
-
+---
 
 ### How I built it
 

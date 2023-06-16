@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "YouTube Dislikes Viewer",
     "version": "1.0",
     "description": "View the number of dislikes for a YouTube video.",
@@ -27,7 +27,7 @@
             "run_at": "document_end"
         }
     ],
-    "browser_action": {
+    "action": {
         "default_popup": "popup.html"
     }
 }
