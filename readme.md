@@ -1,8 +1,8 @@
 # YT_ML_Dislike_Predictor
 
-https://github.com/dfong0530/YT_ML_Dislike_Predictor/assets/68403991/bdc2fd46-014e-473a-8950-f1b62f08d89a
+https://github.com/dfong0530/YT_ML_Dislike_Predictor/assets/68403991/ee0d9666-1e08-4f42-bb80-35b4b14a77a0
 
-### <pre>[Demo Video](https://www.youtube.com/watch?v=qso32-_gCZ8)           [Google Chrome Extension](https://uchat-client.netlify.app/)             [Architecture](https://github.com/dfong0530/YT_ML_Dislike_Predictor/tree/main/Architecture_Diagram)</pre>
+### <pre>[Demo Video](https://www.youtube.com/watch?v=PuEmH1Mg3Hk)           [Google Chrome Extension](https://uchat-client.netlify.app/)             [Architecture](https://github.com/dfong0530/YT_ML_Dislike_Predictor/tree/main/Architecture_Diagram)</pre>
 
 ###### Developer: David Fong
 
