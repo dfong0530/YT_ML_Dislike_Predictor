@@ -10,7 +10,6 @@
     },
     "permissions": [
         "activeTab",
-        "tabs",
         "https://ml-yt-api.fly.dev/*"
     ],
     "content_scripts": [
