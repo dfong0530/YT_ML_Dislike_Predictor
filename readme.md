@@ -18,7 +18,7 @@ This change, however, was met with substantial push back from the YouTube commun
 This is a Google Chrome Extension, that predicts the number of dislikes on a you tube videos. Your current window must be on a you tube video before activating the extension.
 
 
-### :exclamation: Disclaimer :exclamation:
+### Disclaimer :warning:
 
 There is a small bug when using the Google Chrome Extension.
 
