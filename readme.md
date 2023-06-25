@@ -20,8 +20,6 @@ This is a Google Chrome Extension, that predicts the number of dislikes on a you
 
 ### Disclaimer :warning:
 
-There is a small bug when using the Google Chrome Extension.
-
 After downloading the extension and navigating to a youtube video, you need to refresh the page before envoking the extension.
 
 
